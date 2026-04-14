@@ -122,7 +122,7 @@ function Post(props) {
   useEffect(() => { /* isMount ilk kez mi load ediliyyor yoksa biri tıklayınca mı load ediliyor */
     if(isInitialMount.current) // ilk defa ayağa kaktı ise false yap 
       isInitialMount.current = false;
-      
+      /////dSDDASD//
     else
       refreshComments(); // değilse postları refreshle
   }, [refresh])
